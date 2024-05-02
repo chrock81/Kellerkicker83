@@ -1,0 +1,176 @@
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color:  rgb(0, 0, 0);
+    padding: 0px 20px 20px 20px; 
+}
+.mat-toolbar-row {
+    padding:0px !important;
+}
+.kk-flex-content {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Visualierungskarten */
+.kk-flex-content > .kk-card:not(:first-child){ 
+    margin-left: 10px;
+}
+.kk-card {
+    background-color: transparent !important;
+    min-width:340px;
+    margin:10px 0px 10px 0px;
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-basis: auto;
+    flex: 1;
+}
+.mdc-list-item__primary-text {
+    color: white !important;
+}
+.kk-card > mat-card-header {
+    background-color: rgb(29, 28, 28) !important;  
+    padding-bottom: 10px !important;
+}
+.kk-card mat-card-title {
+    color:#bda76f;  
+}
+.kk-card mat-card-subtitle {
+    color: white !important;  
+    padding:0px !important; 
+}
+.kk-card > mat-card-content {
+    background-color: rgb(29, 28, 28);
+    margin-top: 10px;
+    overflow: auto;
+    height: 400px;
+}
+.kk-card > mat-card-content mat-list-item {
+    padding:0px;
+}
+.kk-card-item-title {
+    height: 20px !important;
+    margin-bottom: 5px;
+    padding:0px !important;
+}
+.kk-card-item-title .mdc-list-item__primary-text {
+    color: #bda76f !important;
+}
+.kk-card-item-title-small {
+    height: 20px !important;
+    margin: 12px 0px 5px 0px;
+}
+.kk-card-item-title-smaller {
+    height: 20px !important;
+    margin-bottom: 5px;
+}
+.kk-card-item-title-smaller .mdc-list-item__primary-text {
+    font-size: smaller;
+    color:#bda76f !important; 
+}
+.kk-card-item-title-divider {
+    border-top:1px solid #bda76f !important;
+}
+.kk-card-item-sub-divider {
+    border-top:1px dotted #bda76f !important;
+}
+.kk-card-item-empty-divider {
+    border-top:0px hidden #bda76f !important;
+    height:10px;
+}
+.kk-card-ranking-item-container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kk-ranking-si-1 {
+    color:rgb(213, 44, 2) !important;
+    font-size:1.4em;
+}
+.kk-ranking-si-2 {
+    color:rgb(223, 205, 14) !important;
+    font-size:1.4em;
+}
+.kk-ranking-si-3 {
+    color:rgb(20, 213, 2) !important;
+    font-size:1.4em;
+}
+.kk-ranking-si-4 {
+    color:rgb(255, 255, 255) !important;
+    font-size:1.4em;
+}
+
+.kk-ranking-trend-green {
+    color:rgb(28, 255, 3) !important;
+    font-size:1.4em;
+}
+
+.kk-ranking-trend-red {
+    color:rgb(245, 51, 37) !important;
+    font-size:1.4em;
+}
+
+.kk-ranking-trend-blue {
+    color:rgb(28, 202, 237) !important;
+    font-size:1.4em;
+}
+
+.kk-ranking-standings {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kk-knockout-player-winner {
+    height: 20px !important;
+    margin-bottom: 5px;
+}
+.kk-knockout-player-loser {
+    height: 20px !important;
+    margin-bottom: 5px;
+}
+.kk-knockout-player-winner .mdc-list-item__primary-text {
+    font-size:small !important;
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: flex-start;
+}
+.kk-knockout-player-loser .mdc-list-item__primary-text {
+    font-size: small !important;
+    display: flex;
+    justify-content: flex-start;
+}
+.kk-knockout-player-winner .mdc-list-item__primary-text .kk-knockout-player-result {
+    margin-left: auto;
+}
+.kk-knockout-player-loser .mdc-list-item__primary-text .kk-knockout-player-result {
+    margin-left: auto;
+}
+.kk-ranking-games {
+    width: 20px;
+}
+.kk-ranking-spacer {
+    width:7px;
+}
+.kk-ranking-points{
+    width: 20px;
+    font-weight: bold;
+}
+.kk-ranking-win {
+    width: 20px;
+}
+.kk-ranking-tie {
+    width: 20px;
+}
+.kk-ranking-loss {
+    width: 20px;
+}
+.kk-ranking-divider {
+    width: 20px;
+}
+.kk-ranking-greyout {
+    color: rgb(122, 121, 121) !important;
+}
