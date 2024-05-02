@@ -1,0 +1,20 @@
+#app-toolbar {
+    background-color: black;
+    height:110px;
+    width: 100%;
+    border-bottom: 1px solid #bda76f;
+    padding: 0px !important;
+    }
+
+.flex-spacer {
+    flex: 1 1 auto;
+}
+
+.menu-spacer {
+    margin-left:20px;
+}
+
+.toolbar-text {
+    font-size: medium !important;
+    color:white !important;
+}
