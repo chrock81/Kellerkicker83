@@ -1,0 +1,23 @@
+
+.kk-current-tournament-header {
+    background-color: rgb(29, 28, 28);
+    padding: 2px 0px 10px 0px;
+    width: 100%;
+    margin: 5px 5px 0px 5px;
+}
+
+.mat-expansion-panel {
+    box-shadow: 0px 1px 2px 0px #bda76f !important
+} 
+.mat-expansion-panel-header * {
+    color: white !important;
+}
+
+.kk-card-tournament > mat-card-content {
+    padding: 0px;;
+}
+
+mat-expansion-panel * {
+    color: white !important;
+    fill: white !important;
+}

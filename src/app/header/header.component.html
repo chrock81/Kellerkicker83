@@ -1,9 +1,21 @@
-<mat-toolbar id="app-toolbar">
-    <img src="assets/kellerkicker-logo.jpg" height="100px"/>
-    <span class="menu-spacer"></span>
-    <a mat-button routerLink="/" class="toolbar-text"><mat-icon class="toolbar-text">home</mat-icon>Home</a>
-    <a mat-button routerLink="/tournaments" class="toolbar-text">
-        <mat-icon class="toolbar-text">emoji_events</mat-icon>Turniere</a>  
-    <span class="flex-spacer"></span>
-    <button mat-icon-button id="menu-btn"><mat-icon class="toolbar-text">menu</mat-icon></button>
+<mat-toolbar id="kk-app-toolbar">
+    <div class="kk-app-toolbar-flex-container">
+        <img src="assets/kellerkicker-logo.jpg" height="100px"/>
+        <button mat-button routerLink="/" class="kk-menu-button">
+            <mat-icon>home</mat-icon>
+            Startseite
+        </button>
+        <button mat-button routerLink="/tournaments" class="kk-menu-button">
+            <mat-icon>emoji_events</mat-icon>
+            Turniere
+        </button>   
+        <button mat-button routerLink="/statistics" class="kk-menu-button">
+            <mat-icon>sort</mat-icon>
+            Statistiken
+        </button>    
+        <button mat-button class="kk-menu-button kk-menu-icon-button">
+            <mat-icon>menu</mat-icon>
+        </button> 
+    </div>
+    <mat-divider class="kk-app-toolbar-divider"></mat-divider>
 </mat-toolbar>

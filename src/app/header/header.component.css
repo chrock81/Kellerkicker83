@@ -1,20 +1,23 @@
-#app-toolbar {
+#kk-app-toolbar {
     background-color: black;
     height:110px;
     width: 100%;
-    border-bottom: 1px solid #bda76f;
-    padding: 0px !important;
-    }
+    padding: 0px 20px 0px 20px;
+    display:block !important}
 
-.flex-spacer {
-    flex: 1 1 auto;
+.kk-app-toolbar-flex-container {
+    display:flex;align-items: center; width: 100%;
 }
 
-.menu-spacer {
-    margin-left:20px;
+.kk-app-toolbar-divider {
+    border-top: 1px solid #bda76f;width: 100%;
+    margin-top: 10px;;
 }
 
-.toolbar-text {
-    font-size: medium !important;
+.kk-menu-button  {
     color:white !important;
+    font-size: large;
+}
+.kk-menu-icon-button {
+    margin-left: auto;
 }
